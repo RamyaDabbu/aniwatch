@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Watch App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Anime Watch App</h1>
+        <input type="text" id="searchInput" placeholder="Search for Anime...">
+    </header>
+    <div class="content">
+        <div id="animeList"></div>
+        <div id="animeDetails" class="hidden">
+            <button id="closeDetails">Close</button>
+            <h2 id="animeTitle"></h2>
+            <img id="animeImage" alt="Anime Poster">
+            <p id="animeDescription"></p>
+            <h3>Episodes:</h3>
+            <ul id="episodeList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
